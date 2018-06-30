@@ -3,7 +3,9 @@ package Zadanie1;
 import java.util.HashMap;
 import java.util.Scanner;
 
+
 public class Zad1 {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -47,8 +49,7 @@ public class Zad1 {
             suma += alfabet.get(tablicaBezPolskichZnakow[i]);
         }
 
-        System.out.println("Suma dla podanego imienia i nazwiska: " + suma);
-        System.out.println("Suma modulo 2 wynosi: " + suma%2);
+        System.out.println("Suma dla podanego imienia i nazwiska: " + suma + ", modulo 2 wynosi: " + suma%2);
 
     }
 
